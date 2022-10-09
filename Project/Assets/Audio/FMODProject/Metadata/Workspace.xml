@@ -5,34 +5,35 @@
 			<value>../FMODBanks</value>
 		</property>
 		<relationship name="masterEventFolder">
-			<destination>{207ec0d3-d964-4816-9db8-fc0d1e839f07}</destination>
+			<destination>{54463631-1433-4028-b1f8-722cc1b3095c}</destination>
 		</relationship>
 		<relationship name="masterTagFolder">
-			<destination>{459f9c24-3f8b-4666-8484-97541fd4b998}</destination>
+			<destination>{483fce49-8c3d-4ec6-9988-f32fdb709e85}</destination>
 		</relationship>
 		<relationship name="masterEffectPresetFolder">
-			<destination>{a37a02f9-c8c6-420b-b24b-c549ca71e813}</destination>
+			<destination>{16bf33dd-1fe6-456b-96f2-440af2bd1cf9}</destination>
 		</relationship>
 		<relationship name="masterParameterPresetFolder">
-			<destination>{0894d389-b311-4a96-bd59-b9b20c2f7b49}</destination>
+			<destination>{50a27df1-a5e4-460e-8bc1-41b09523c96f}</destination>
 		</relationship>
 		<relationship name="masterBankFolder">
-			<destination>{3efd2cec-0d29-4a11-8987-6ee4900bfdd1}</destination>
+			<destination>{aef47fe4-1137-4f46-90e9-8a980a917625}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{75358a38-cbfe-4351-be58-1245f164fa4f}</destination>
+			<destination>{4d7eda96-985b-4f0b-b505-6e11837e3d62}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
-			<destination>{3ec847c3-38e5-47cb-9669-424747732625}</destination>
+			<destination>{0ff5e087-63bc-4ca2-a2c9-f0a97d925338}</destination>
 		</relationship>
 		<relationship name="mixer">
-			<destination>{b48c59cf-69ae-45d5-a29f-28e78fb5936a}</destination>
+			<destination>{e7f0d44e-26b6-4c2d-bd35-ab1525302256}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{72519048-f089-436d-8cc6-b56493a8488e}</destination>
+			<destination>{8b0082d6-4323-48e4-9b5b-141ba1668c2c}</destination>
 		</relationship>
 		<relationship name="platforms">
 			<destination>{8ee7d80f-959d-4021-a1c7-af778441bfa7}</destination>
+			<destination>{81114231-5a28-4eca-8666-2488a69679f4}</destination>
 		</relationship>
 	</object>
 </objects>
