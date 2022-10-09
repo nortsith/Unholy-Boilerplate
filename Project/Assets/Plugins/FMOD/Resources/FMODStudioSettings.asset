@@ -554,7 +554,7 @@ MonoBehaviour:
   sourceProjectPath: Assets/FMOD/Project/Project.fspro
   sourceBankPath: Assets/Audio/FMODBanks
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 1
+  BankRefreshCooldown: 5
   ShowBankRefreshWindow: 0
   AutomaticEventLoading: 0
   BankLoadType: 0
@@ -576,9 +576,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks: []
-  BanksToLoad:
-  - Master
-  - Master.strings
+  BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
   AndroidUseOBB: 0
