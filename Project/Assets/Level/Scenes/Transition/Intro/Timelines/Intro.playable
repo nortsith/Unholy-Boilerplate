@@ -1637,6 +1637,6 @@ MonoBehaviour:
       Data2: 1243946197
       Data3: 113816990
       Data4: 1748835525
-    Path: event:/Intro
+    Path: event:/Music/Intro
   StopType: 0
   Parameters: []
