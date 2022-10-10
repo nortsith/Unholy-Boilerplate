@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/HUD/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=b950845002e5c2b4d81edca75c81f9f8&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Root" class="root" style="flex-grow: 1; flex-direction: row; background-color: rgba(0, 0, 0, 0.7);">
+        <ui:VisualElement name="Navbar" class="container" style="min-width: 20%; flex-direction: column-reverse; width: auto;">
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" focusable="false" class="button" style="font-size: 24px;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" focusable="false" class="button" style="font-size: 24px;" />
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="PlayButton" focusable="false" class="button" style="font-size: 24px;" />
+            <ui:Label text="Menu" display-tooltip-when-elided="true" name="Title" class="title" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Content" class="container" style="flex-grow: 1;">
+            <ui:VisualElement name="SettingsContainer" class="contentContainer fadeOut" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.7); padding-left: 32px; padding-right: 32px; padding-top: 32px; padding-bottom: 32px;">
+                <ui:Label text="Settings" display-tooltip-when-elided="true" name="Title" class="title" />
+                <ui:ScrollView horizontal-scroller-visibility="Hidden" style="flex-grow: 1; overflow: visible; width: 100%; flex-wrap: nowrap;">
+                    <ui:VisualElement name="AudioSection" class="section">
+                        <ui:Label text="Audio" display-tooltip-when-elided="true" name="SubTitle" class="subTitle" />
+                        <ui:Slider picking-mode="Ignore" label="Master" value="1" high-value="1" focusable="false" name="MasterSlider" show-input-field="false" style="font-size: 24px; color: rgb(255, 255, 255); align-items: center; justify-content: space-between; width: 50%;" />
+                        <ui:Slider picking-mode="Ignore" label="Music" value="1" high-value="1" focusable="false" name="MusicSlider" style="font-size: 24px; color: rgb(255, 255, 255); align-items: center; justify-content: space-between; width: 50%;" />
+                        <ui:Slider picking-mode="Ignore" label="Environment" value="1" high-value="1" focusable="false" name="EnvironmentSlider" style="font-size: 24px; color: rgb(255, 255, 255); align-items: center; justify-content: space-between; width: 50%;" />
+                        <ui:Slider picking-mode="Ignore" label="Effects" value="1" high-value="1" focusable="false" name="EffectsSlider" style="font-size: 24px; color: rgb(255, 255, 255); align-items: center; justify-content: space-between; width: 50%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="VideoSection" class="section">
+                        <ui:Label text="Video" display-tooltip-when-elided="true" name="SubTitle" class="subTitle" />
+                    </ui:VisualElement>
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
