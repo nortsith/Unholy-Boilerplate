@@ -18,7 +18,7 @@
     height: 64px;
     font-size: 24px;
     color: rgb(255, 255, 255);
-    background-color: rgba(30, 30, 30, 255);
+    background-color: rgb(30, 30, 30);
     border-left-width: 0;
     border-right-width: 0;
     border-top-width: 0;
@@ -64,7 +64,7 @@
 }
 
 .active {
-    background-color: rgba(20, 20, 20, 255);
+    background-color: rgb(20, 20, 20);
 }
 
 .tabView {
@@ -76,12 +76,12 @@
 .title {
     font-size: 64px;
     -unity-font-style: bold;
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-bottom: 16px;
 }
 
 .borderBottom {
-    border-bottom-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
     border-left-width: 1px;
     border-right-width: 1px;
     border-top-width: 1px;
@@ -97,13 +97,13 @@
 
 .section {
     margin-top: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 
 .contentContainer {
     top: 0;
     display: flex;
-    transition-duration: 0.5s, 0s;
+    transition-duration: 0.2s, 0s;
     transition-property: all, display;
 }
 
@@ -113,7 +113,7 @@
     display: none;
     transition-property: display, all;
     transition-delay: 0.5s, 0s;
-    transition-duration: 0s, 0.5s;
+    transition-duration: 0s, 0.2s;
 }
 
 .unity-slider__input {

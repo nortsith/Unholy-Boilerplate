@@ -20,6 +20,13 @@
                     </ui:VisualElement>
                     <ui:VisualElement name="VideoSection" class="section">
                         <ui:Label text="Video" display-tooltip-when-elided="true" name="SubTitle" class="subTitle" />
+                        <ui:DropdownField label="Mode" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="ModeDropdown" style="font-size: 24px; width: 50%; color: rgb(255, 255, 255);" />
+                        <ui:DropdownField label="Resolution" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="ResolutionDropdown" style="font-size: 24px; width: 50%; color: rgb(255, 255, 255);" />
+                        <ui:DropdownField label="FPS" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="RefreshRateDropdown" style="font-size: 24px; width: 30%; color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GraphicsSection" class="section">
+                        <ui:Label text="Graphics" display-tooltip-when-elided="true" name="SubTitle" class="subTitle" />
+                        <ui:DropdownField label="Quality" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="QualityDropdown" style="font-size: 24px; width: 30%; color: rgb(255, 255, 255);" />
                     </ui:VisualElement>
                 </ui:ScrollView>
             </ui:VisualElement>
